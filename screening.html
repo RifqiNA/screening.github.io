@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASD Screening Test</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>ASD Screening Test</h1>
+    <form method="POST" action="/result">
+        <!-- Add the screening test questions here -->
+    <p class="highlighted-paragraph"></p>1.	Apakah Anak Anda melihat Anda pada saat dipanggil namanya?</p>
+        <p>
+            <input type="radio" name="A1" value="0" required>Selalu
+            <input type="radio" name="A1" value="0" required>Biasanya
+            <input type="radio" name="A1" value="1" required>Kadang kadang
+            <input type="radio" name="A1" value="1" required>Jarang
+            <input type="radio" name="A1" value="1" required>Tidak Pernah
+        </p>
+
+    <p class="highlighted-paragraph"></p>2.	Apakah mudah bagi Anda untuk mendapatkan kontak mata dengan Anak Anda?</p>
+        <p>
+            <input type="radio" name="A2" value="0" required>Sangat mudah
+            <input type="radio" name="A2" value="0" required>Agak Mudah
+            <input type="radio" name="A2" value="1" required>Agak sulit
+            <input type="radio" name="A2" value="1" required>Sangat sulit
+            <input type="radio" name="A2" value="1" required>Mustahil
+        </p>
+
+    <p class="highlighted-paragraph"></p>3.	Apakah Anak Anda menunjuk / menggunakan telunjuk untuk menunjuk apabila dia menginginkan sesuatu ( seperti mainan yang tidak dapat dijangkaunya)?</p>
+        <p>
+            <input type="radio" name="A3" value="0" required>Sering kali dalam satu hari            
+            <input type="radio" name="A3" value="0" required>Beberapa kali dalam satu hari
+            <input type="radio" name="A3" value="1" required>Beberapa kali dalam satu minggu
+            <input type="radio" name="A3" value="1" required>Kurang dari satu kali seminggu
+            <input type="radio" name="A3" value="1" required>Tidak Pernah
+        </p>
+        
+    <p class="highlighted-paragraph"></p>4.	Apakah Anak Anda menunjuk / menggunakan telunjuk untuk menunjuk untuk menunjukan ketertarikannya pada sesuatu pada Anda (seperti menunjuk pada pemandangan yang menarik)?</p>
+        <p>
+            <input type="radio" name="A4" value="0" required>Sering kali dalam satu hari
+            <input type="radio" name="A4" value="0" required>Beberapa kali dalam satu hari
+            <input type="radio" name="A4" value="1" required>Beberapa kali dalam satu minggu
+            <input type="radio" name="A4" value="1" required>Kurang dari satu kali seminggu
+            <input type="radio" name="A4" value="1" required>Tidak Pernah
+        </p>
+
+    <p class="highlighted-paragraph"></p>5.	Apakah Anak Anda dapat bermain “berpura-pura” (seperti bermain berbicara di telepon, mengasuh boneka )?</p>
+        <p>
+            <input type="radio" name="A5" value="0" required>Sering kali dalam satu hari
+            <input type="radio" name="A5" value="0" required>Beberapa kali dalam satu hari
+            <input type="radio" name="A5" value="1" required>Beberapa kali dalam satu minggu
+            <input type="radio" name="A5" value="1" required>Kurang dari satu kali seminggu
+            <input type="radio" name="A5" value="1" required>Tidak Pernah
+        </p>
+
+    <p class="highlighted-paragraph"></p>6.	Apakah Anak Anda ikut melihat / menoleh apabila Anda melihat sesuatu/menunjukan sesuatu padanya?</p>
+        <p>
+            <input type="radio" name="A6" value="0" required>Sering kali dalam satu hari
+            <input type="radio" name="A6" value="0" required>Beberapa kali dalam satu hari
+            <input type="radio" name="A6" value="1" required>Beberapa kali dalam satu minggu
+            <input type="radio" name="A6" value="1" required>Kurang dari satu kali seminggu
+            <input type="radio" name="A6" value="1" required>Tidak Pernah
+        </p>
+    
+    <p class="highlighted-paragraph"></p>7.	Jika Anda atau orang lain dalam keluarga terlihat sedih, apakah anak Anda menunjukkan tanda-tanda ingin menghibur mereka? (misalnya, mengelus rambut, memeluk mereka)?</p>
+        <p>
+            <input type="radio" name="A7" value="0" required>Selalu
+            <input type="radio" name="A7" value="0" required>Biasanya
+            <input type="radio" name="A7" value="1" required>Kadang kadang
+            <input type="radio" name="A7" value="1" required>Jarang
+            <input type="radio" name="A7" value="1" required>Tidak Pernah
+        </p>
+
+    <p class="highlighted-paragraph"></p>8. Bagaimana Anda menggambarkan kata-kata pertama anak Anda?</p>
+        <p>
+            <input type="radio" name="A8" value="0" required>Sangat biasa/typical            
+            <input type="radio" name="A8" value="0" required>Agak biasa/typical
+            <input type="radio" name="A8" value="1" required>Agak kurang biasa/aneh            
+            <input type="radio" name="A8" value="1" required>Sangat tidak biasa/aneh
+            <input type="radio" name="A8" value="1" required>Tidak berbicara            
+        </p>
+
+    <p class="highlighted-paragraph"></p>9. Apakah Anak Anda menggunakan bahasa tubuh / isyarat yang sederhana (misalnya, melambaikan tangan untuk mengucapkan selamat tinggal) ?</p>
+        <p>
+            <input type="radio" name="A9" value="0" required>Sering kali dalam satu hari
+            <input type="radio" name="A9" value="0" required>Beberapa kali dalam satu hari
+            <input type="radio" name="A9" value="1" required>Beberapa kali dalam satu minggu
+            <input type="radio" name="A9" value="1" required>Kurang dari satu kali seminggu
+            <input type="radio" name="A9" value="1" required>Tidak Pernah
+        </p>
+    
+    <p class="highlighted-paragraph"></p>10. Apakah Anak Anda dapat bermain “berpura-pura” (seperti bermain berbicara di telepon, mengasuh boneka )?</p>
+        <p>
+            <input type="radio" name="A10" value="1" required>Sering kali dalam satu hari
+            <input type="radio" name="A10" value="1" required>Beberapa kali dalam satu hari
+            <input type="radio" name="A10" value="1" required>Beberapa kali dalam satu minggu
+            <input type="radio" name="A10" value="0" required>Kurang dari satu kali seminggu
+            <input type="radio" name="A10" value="0" required>Tidak Pernah
+        </p>
+    
+    <p class="highlighted-paragraph"></p>11. Apakah Anak Anda lahir dengan penyakit kuning?</p>
+        <p>
+            <input type="radio" name="Jaundice" value="1" required>Iya
+            <input type="radio" name="Jaundice" value="0" required>Tidak
+        </p>
+    
+    <p class="highlighted-paragraph"></p>12. Apakah keluarga Anda atau Saudara Anda memiliki ASD?</p>
+        <p>
+            <input type="radio" name="Family_mem_with_ASD" value="1" required>Iya
+            <input type="radio" name="Family_mem_with_ASD" value="0" required>Tidak
+        </p>
+    <p>
+        <input type="submit" value="Submit">
+    </p>
+</form>
+</body>
+</html>

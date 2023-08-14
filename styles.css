@@ -1,0 +1,191 @@
+/* CSS for the button */
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0052a3;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.resources-section {
+  padding: 20px;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #0099cc;
+  text-align: center;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #0099cc;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0099cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 24px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 24px auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 12px;
+}
+
+.prediction {
+  margin-top: 24px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+form {
+  margin-top: 24px;
+}
+
+.result {
+  margin-top: 24px;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+h1 {
+  color: #0099cc;
+  text-align: center;
+}
+
+form {
+  max-width: 2000px;
+  margin: 100 auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p.highlighted-paragraph {
+  background-color: #0099cc;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+input[type="submit"] {
+  background-color: #0099cc;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0088b3;
+}
